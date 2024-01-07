@@ -3,6 +3,7 @@ import React from 'react'
 import {Link as RouterLink} from 'react-router-dom'
 import { CreatePostLogo, InstagramLogo, InstagramMobileLogo, NotificationsLogo, SearchLogo } from '../../assets/constants'
 import {AiFillHome} from "react-icons/ai"
+import { BiLogOut } from "react-icons/bi";
 const Sidebar = () => {
   const sidebarItems =[
     {
@@ -43,7 +44,7 @@ const Sidebar = () => {
     position={"sticky"}
     px={{base:2,md:4}}
     >
-        <Flex direction={"column"} gap={10} w={"full"} >
+        <Flex direction={"column"} gap={10} w={"full"} height={"100vh"}>
             <Link to="/" as={RouterLink} pl={2} display={{base:"none" , md:"block"}} cursor="pointer" marginTop={3}>
                 <InstagramLogo />
             </Link>
@@ -83,6 +84,32 @@ const Sidebar = () => {
                 </Tooltip>
               ))}
             </Flex>
+            <Tooltip
+                hasArrow
+                label = {"Log Out"}
+                placement='right'
+                ml={1}
+                openDelay={500}
+                display={{base:"block",md:"none"}}
+                >
+                  <Link display={"flex"}
+                  to={"/Auth"}
+                  as={RouterLink}
+                  alignItems={"center"}
+                  gap={4}
+                  _hover={{bg:"whiteAlpha.500"}}
+                  borderRadius={6}
+                  p={2}
+                  w={{base:10,md:"full"}}
+                  mt={"auto"}
+                  justifyContent={{base:'center',md:"flex-start"}}
+                 >
+                  <BiLogOut size={25}/>
+                  <Box display={{base:"none",md:'block'}}>
+                    Log Out
+                  </Box>
+                  </Link>
+                </Tooltip>
         </Flex> 
     </Box>
     </>
