@@ -26,10 +26,13 @@ npm install
 npm run dev
 ```
 # Project Features
-React Integration: Utilizes React for building dynamic user interfaces.
-Vite Configuration: Takes advantage of Vite's fast development server and efficient bundling.
-Fast Refresh: Implements Fast Refresh with either Babel (@vitejs/plugin-react) or SWC (@vitejs/plugin-react-swc) for optimal developer experience.
-Usage of Plugins
-@vitejs/plugin-react: Utilizes Babel for Fast Refresh.
-@vitejs/plugin-react-swc: Incorporates SWC for Fast Refresh.
-Developers can use this InstaClone template as a foundation for creating their React applications with Vite, benefiting from a well-optimized setup that incorporates the latest tools and best practices for an efficient and enjoyable development process.
++ React Integration: Utilizes React for building dynamic user interfaces.
++ Vite Configuration: Takes advantage of Vite's fast development server and efficient bundling.
++ Fast Refresh:Implements Fast Refresh with either Babel (``@vitejs/plugin-react``) or SWC (``@vitejs/plugin-react-swc``) for optimal developer experience.
+
+# Usage of Plugins
+
++ `@vitejs/plugin-react`: Utilizes Babel for Fast Refresh.
++ `@vitejs/plugin-react-swc`: Incorporates SWC for Fast Refresh.
++ Developers can use this InstaClone template as a foundation for creating their React applications with + + Vite, benefiting from a well-optimized setup that incorporates the latest tools and best practices for 
+  an efficient and enjoyable development process.
