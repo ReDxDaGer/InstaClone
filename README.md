@@ -1,3 +1,4 @@
+<img src='../InstaClone/public/Instagram_logo-removebg-preview.png' /> 
 # InstaClone
 
 The InstaClone repository is a React project configured with Vite, offering a minimal and efficient setup for developing a web application that emulates the functionality and visual style of Instagram. This template includes crucial features like Hot Module Replacement (HMR), ensuring real-time code updates and providing a seamless development experience.
